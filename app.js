@@ -81,10 +81,10 @@ Test this function by hand in the console to get it working, and when you think 
 var testArray = [2,3,4]; //eslint-disable-line
 
 function sumArray(testArray){ //eslint-disable-line
-  var theSum = sum(testArray[0],(sum(testArray[1],testArray[2])[0])[0]);
-  console.log('theSum:',theSum);
-  var sumArrayMessage = testArray + ' was passed in as an array of numbers, and ' + theSum + ' is their sum.';
-  return [theSum, sumArrayMessage];
+  var theSumm = sum(testArray[0],(sum(testArray[1],testArray[2])[0]))[0];
+  console.log('theSumm:',theSumm);
+  var sumArrayMessage = testArray + ' was passed in as an array of numbers, and ' + theSumm + ' is their sum.';
+  return [theSumm, sumArrayMessage];
 }
 
 // TODO: Here is the test for sumArray(); uncomment it to run it
